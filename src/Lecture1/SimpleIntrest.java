@@ -1,3 +1,4 @@
+package Lecture1;
 
 public class  SimpleIntrest {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Lecture1;
+
 public class pattern {
     public static void main(String[] args) {
 
@@ -13,11 +15,15 @@ public class pattern {
 
         printStars(10);
 
-        printnxnStars(5);
+        printNxnStars(5);
 
         printUpTriangle(10);
 
         printDownTriangle(10);
+
+        printHollowUpTriangle(10);
+
+        printHollowDownTriangle(10);
 
     }
 
@@ -37,7 +43,7 @@ public class pattern {
         }
     }
 
-    public static void printnxnStars(int n) {
+    public static void printNxnStars(int n) {
         int row = 0;
         while (row < n) {
             int col = 0;
@@ -77,4 +83,37 @@ public class pattern {
         }
 
     }
-}
+
+    public static void printHollowUpTriangle(int n){
+        int row =0;
+        while (row<=n){
+            int col = 0;
+            while(col<row){
+                if (col == 0 || col == (row-1)|| row == n) {
+                    System.out.print("*");
+                } else{
+                    System.out.print(" ");
+                }
+                col++;
+                }
+            System.out.println();
+            row++;
+            }
+        }
+        public static void printHollowDownTriangle(int n){
+            int row =n;
+            while (row > 0){
+                int col =0;
+                while (col<row){
+                    if (col == 0 || col == (row-1)|| row ==n){
+                        System.out.print("*");
+                    }else{
+                        System.out.print(" ");
+                    }
+                    col ++;
+                }
+                System.out.println();
+                row--;
+            }
+        }
+    }

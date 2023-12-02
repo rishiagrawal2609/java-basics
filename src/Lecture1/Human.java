@@ -1,3 +1,5 @@
+package Lecture1;
+
 class Human {
     int hands;
     int legs;

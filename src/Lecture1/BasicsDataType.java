@@ -1,3 +1,5 @@
+package Lecture1;
+
 public class BasicsDataType {
 
     public static void main(String[] args) {

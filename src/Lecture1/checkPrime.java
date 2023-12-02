@@ -1,3 +1,5 @@
+package Lecture1;
+
 import java.util.SortedMap;
 
 public class checkPrime {

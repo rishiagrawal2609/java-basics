@@ -1,3 +1,5 @@
+package Lecture1;
+
 public class NumberSystem {
     public static void main(String[] args) {
         System.out.println(deci2bin1(12));

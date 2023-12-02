@@ -1,3 +1,5 @@
+package Lecture1;
+
 public class RefScoping {
     public static void main(String[] args) {
         int a = 8;

@@ -1,3 +1,5 @@
+package Lecture1;
+
 public class Count5 {
     public static void main(String[] args) {
         System.out.println(count5(535));

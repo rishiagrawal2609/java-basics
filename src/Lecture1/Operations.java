@@ -1,3 +1,5 @@
+package Lecture1;
+
 public class Operations {
 
     public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class Operations {
         System.out.println(2 <= 3);
         System.out.println(2 >= 3);
 
-        //Logical Operations
+        //Logical Lecture1.Operations
         System.out.println(true && true);
         System.out.println(true && false);
         System.out.println(false && true);
