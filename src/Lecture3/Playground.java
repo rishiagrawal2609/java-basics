@@ -13,5 +13,20 @@ public class Playground {
         car.acc();
         car.stop();
         System.out.println(car.wheels);
+
+        Limo limo = new Limo();
+        limo.start();
+        limo.acc();
+        limo.stop();
+        System.out.println(limo.wheels);
+
+        Car strech = new Limo();
+        strech.start();
+        strech.acc();
+        strech.stop();
+        System.out.println(strech.wheels);
+        //Limo swift =new Car(); not valid
+
+
     }
 }

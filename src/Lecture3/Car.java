@@ -1,7 +1,7 @@
 package Lecture3;
 
 public class Car {
-    public int wheels = 4;
+    public int wheels = 4  ;
     public  void start(){
         System.out.println("Car is starting!");
     }
